@@ -1,6 +1,5 @@
 .DS_Store
 .vagrant
 *.box
-join-cluster.sh
 .ssh
 

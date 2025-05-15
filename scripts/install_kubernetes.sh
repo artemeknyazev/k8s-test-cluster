@@ -16,6 +16,6 @@ sudo chmod a+r /etc/bash_completion.d/kubectl
 kubeadm completion bash | sudo tee /etc/bash_completion.d/kubeadm > /dev/null
 sudo chmod a+r /etc/bash_completion.d/kubeadm
 
-echo "alias k=kubectl" >> ~/.bashrc
-echo "complete -o default -F __start_kubectl k" >> ~/.bashrc
+echo "alias k=kubectl" >> /home/vagrant/.bashrc
+echo "complete -o default -F __start_kubectl k" >> /home/vagrant/.bashrc
 
